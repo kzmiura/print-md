@@ -6,6 +6,11 @@ import puppeteer from "puppeteer-core";
 import hljs from "highlight.js";
 
 const argv = process.argv;
+if (!argv[2]) {
+  process.stdout.write("USAGE: print-md <markdown-file-path>\n");
+  process.exit();
+}
+
 const markdownFilePath = path.resolve(argv[2]);
 
 const md = markdownIt({
