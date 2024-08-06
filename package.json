@@ -1,5 +1,5 @@
 {
-  "name": "print-md",
+  "name": "@kzmiura/print-md",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
