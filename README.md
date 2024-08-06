@@ -17,14 +17,6 @@ The PDF file printed this README file is [here](./README.pdf).
 
 ## Usage
 
-1. Install
-
-   ```zsh
-   npm i -g kzmiura/print-md
-   ```
-
-1. Print
-
-   ```zsh
-   print-md <markdown-file>
-   ```
+```zsh
+print-md <markdown-file>
+```
