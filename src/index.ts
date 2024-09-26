@@ -100,7 +100,7 @@ for (const filename of positionals) {
       });
       await browser.close();
 
-      console.info("Print finished!");
+      console.info(`${filename}: done`);
     })();
   } catch (e) {
     console.error(e);
