@@ -14,7 +14,7 @@
     "print-md": "./bin/cli.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "kzmiura",
   "license": "ISC",
   "description": "",
   "devDependencies": {
@@ -28,5 +28,6 @@
     "highlight.js": "^11.10.0",
     "markdown-it": "^14.1.0",
     "puppeteer-core": "^22.15.0"
-  }
+  },
+  "private": true
 }
